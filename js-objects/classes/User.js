@@ -1,15 +1,15 @@
+let _COUNTER = 1;
+let _PREFIX = 111;
+
 function generateID() {
-  let counter = 1;
-  return () => {
-    parseInt(
-      "001"
-        .concat(counter++)
-    );
-  }
+  return parseInt(
+    _PREFIX.toString()
+      .concat(_COUNTER++)
+  );
 }
 
 class User {
-  id = generateID();
+  id;
   name;
   surname;
   login;
@@ -19,7 +19,7 @@ class User {
   about = null;
 
   constructor(name, surname, email, phone,) {
-    this.id();
+    this.id = generateID();
     this.name = name;
     this.surname = surname;
     this.login = this.getLogin();
