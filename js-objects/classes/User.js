@@ -1,14 +1,25 @@
+function generateID() {
+  let counter = 1;
+  return () => {
+    parseInt(
+      "001"
+        .concat(counter++)
+    );
+  }
+}
+
 class User {
-  id;
+  id = generateID();
   name;
   surname;
   login;
   email;
   phone;
-  avatar;
-  about;
+  avatar = null;
+  about = null;
 
   constructor(name, surname, email, phone,) {
+    this.id();
     this.name = name;
     this.surname = surname;
     this.login = this.getLogin();
