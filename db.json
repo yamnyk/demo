@@ -1,4 +1,10 @@
 {
+  "users": [
+    {"name":"Gogi","surname":"Doe","login":"gogi__doe","email":"gogiDoe@gogi.go","phone":"+994508887754"},
+    {"name":"John","surname":"Sertoful","login":"john__sertoful","email":"j.ser@s.out","phone":"+994186698245"},
+    {"name":"Milla","surname":"Yo","login":"milla__yo","email":"yomilla888@bob.ob","phone":"+99441744220"},
+    {"name":"Oleg","surname":"Jackson","login":"oleg__jackson","email":"ockson@hola.go","phone":"+9948594741"}
+  ],
   "posts": [
     { "id": 1, "title": "Post 1" },
     { "id": 2, "title": "Post 2" },
