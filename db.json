@@ -6,13 +6,19 @@
     {"id":1114,"name":"Oleg","surname":"Jackson","login":"oleg__jackson","email":"ockson@hola.go","phone":"+9948594741","avatar":null,"about":null}
   ],
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    {"id":1121,"title":"Post - 1","authorID":1111,"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut incidunt laboriosam, magnam odio omnis provident ratione voluptatum. Accusantium alias architecto at commodi, culpa doloremque dolores dolorum eius enim eum ex facilis hic inventore iusto laboriosam minus natus necessitatibus nesciunt nobis placeat quae quas quibusdam quos saepe soluta tempore temporibus. Aliquam.","dateCreated":"02-03-2020"},
+    {"id":1122,"title":"Post - 12","authorID":1111,"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut incidunt laboriosam, magnam odio omnis provident ratione voluptatum. Accusantium alias architecto at commodi, culpa doloremque dolores dolorum eius enim eum ex facilis hic inventore iusto laboriosam minus natus necessitatibus nesciunt nobis placeat quae quas quibusdam quos saepe soluta tempore temporibus. Aliquam.","dateCreated":"02-03-2020"},
+    {"id":1123,"title":"Post - 32","authorID":1112,"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut incidunt laboriosam, magnam odio omnis provident ratione voluptatum. Accusantium alias architecto at commodi, culpa doloremque dolores dolorum eius enim eum ex facilis hic inventore iusto laboriosam minus natus necessitatibus nesciunt nobis placeat quae quas quibusdam quos saepe soluta tempore temporibus. Aliquam.","dateCreated":"07-13-2020"},
+    {"id":1124,"title":"Post - 100","authorID":1113,"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut incidunt laboriosam, magnam odio omnis provident ratione voluptatum. Accusantium alias architecto at commodi, culpa doloremque dolores dolorum eius enim eum ex facilis hic inventore iusto laboriosam minus natus necessitatibus nesciunt nobis placeat quae quas quibusdam quos saepe soluta tempore temporibus. Aliquam.","dateCreated":"12-03-2020"},
+    {"id":1125,"title":"Post - 01","authorID":1113,"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut incidunt laboriosam, magnam odio omnis provident ratione voluptatum. Accusantium alias architecto at commodi, culpa doloremque dolores dolorum eius enim eum ex facilis hic inventore iusto laboriosam minus natus necessitatibus nesciunt nobis placeat quae quas quibusdam quos saepe soluta tempore temporibus. Aliquam.","dateCreated":"03-09-2019"},
+    {"id":1126,"title":"Post - 18","authorID":1112,"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut incidunt laboriosam, magnam odio omnis provident ratione voluptatum. Accusantium alias architecto at commodi, culpa doloremque dolores dolorum eius enim eum ex facilis hic inventore iusto laboriosam minus natus necessitatibus nesciunt nobis placeat quae quas quibusdam quos saepe soluta tempore temporibus. Aliquam.","dateCreated":"05-15-2020"}
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    {"id":1137,"postID":1122,"dateCreated":"02-18-2020","authorID":1111,"text":"Hello!"}
+    {"id":1138,"postID":1122,"dateCreated":"02-18-2020","authorID":1112,"text":"We are happy for you!"}
+    {"id":1139,"postID":1123,"dateCreated":"03-01-2020","authorID":1111,"text":"You should delete this post! NOW!!"}
+    {"id":11310,"postID":1125,"dateCreated":"02-20-2020","authorID":1114,"text":"hm...okay"}
+    {"id":11311,"postID":1123,"dateCreated":"03-08-2020","authorID":1112,"text":"Not at all"}
   ],
   "profile": {
     "name": "typicode"
